@@ -321,3 +321,11 @@ compose.override.yml
 # Local project overrides
 # -----------------------------------------------------------------------------
 .gitignore.local
+
+# MOS Stream local build and browser artifacts
+page/node_modules/
+page/dist/
+*.pyc
+output/
+.playwright-cli/
+.playwright/

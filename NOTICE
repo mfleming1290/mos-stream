@@ -1,0 +1,11 @@
+MOS Stream, adapted from MOS Plugin Starter (example-local)
+Copyright (c) 2026 MOS Hub Local contributors.
+Licensed under GNU Affero General Public License version 3 only.
+
+Developed using the user-provided MOS frontend/build-pack contract and inspected
+MOS plugin packaging conventions. The supplied MOS frontend reference is
+AGPL-3.0. Its complete license is retained in LICENSE. Do not remove original
+third-party copyright notices when incorporating additional reference source.
+
+This source template is not an official MOS compatibility certification.
+See THIRD-PARTY-NOTICES.md for source references and dependency licenses.

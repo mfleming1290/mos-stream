@@ -1,0 +1,63 @@
+## 2026-11-22T15:51:16Z — MOS Stream local plugin
+
+- Request: Create a MOS Selkies stream viewer with editable persistent URL in G:/code/mos-stream, built for Hub Local.
+- Result: Completed local implementation and packaging of0.1.0. Settings/save/switch/reconnect/disconnect/fullscreen work in an isolated browser fixture. Live MOS import/install and real Selkies streaming remain unverified.
+- Files:
+  - Created:
+    - .github/workflows/build-plugin.yml
+    - LICENSE
+    - NOTICE
+    - README.md
+    - THIRD-PARTY-NOTICES.md
+    - settings.json
+    - docs/API-REFERENCE.md
+    - docs/LOCAL-INSTALL.md
+    - docs/MOS-PLUGIN-GUIDE.md
+    - docs/VALIDATION.md
+    - docs/licenses/vite-plugin-federation-MulanPSL-2.0.txt
+    - docs/licenses/vue-MIT.txt
+    - page/AGENTS.md
+    - page/index.html
+    - page/package.json
+    - page/package-lock.json
+    - page/plugin.config.js
+    - page/vite.config.js
+    - page/src/api.js
+    - page/src/Plugin.vue
+    - page/src/session.js
+    - page/src/settings.js
+    - page/test/api.test.js
+    - page/test/check-build.mjs
+    - page/test/serve-fixture.mjs
+    - page/test/session.test.js
+    - page/test/settings.test.js
+    - scripts/AGENTS.md
+    - scripts/build-local.sh
+    - scripts/package-local.py
+    - scripts/package-local.sh
+    - scripts/test-package.py
+    - DOX_CHANGELOG.md
+  - Modified:
+    - .gitignore
+    - AGENTS.md (pre-existing untracked user harness preserved; Project Catalog populated)
+  - Generated, ignored:
+    - page/node_modules/ (locked local dependencies)
+    - page/dist/stream/ (compiled federation assets)
+    - output/playwright/stream.png
+    - output/playwright/settings-narrow.png
+    - .playwright-cli/ (local fixture snapshots/console logs)
+    - artifacts/mos-stream-0.1.0-install.zip
+    - artifacts/mos-stream-0.1.0-install.zip.sha256
+    - artifacts/mos-stream-0.1.0-source.zip
+    - artifacts/mos-stream-0.1.0-source.zip.sha256
+    - artifacts/mos-stream-0.1.0-manifest.json
+    - artifacts/stream_0.1.0-1+mos-plugin_all.deb
+    - artifacts/stream_0.1.0-1+mos-plugin_all.deb.md5
+    - artifacts/stream_0.1.0-1+mos-plugin_all.deb.sha256
+    - artifacts/SHA256SUMS
+  - Moved/Renamed: None
+  - Deleted: None from pre-existing repository state; unused copied starter helper/functions/staticfiles examples removed before delivery.
+- Validation: passed — npm ci --ignore-scripts, npm test12/12, npm run build/federation smoke; WSL Python package tests2/2 with byte-identical repeated archives; SHA256SUMS all passed; final archive inspection found no build/browser/dependency leaks; git diff --check passed. Edge fixture verified switch/reload/frame URL/disconnect/reconnect/fullscreen/narrow layout. Final UI-only label renamed Window name to Stream name after browser pass; production build passed afterward.
+- DOX: Root Project Catalog updated; page/scripts ownership routes added. Original repository ignore rules retained with additive plugin exclusions.
+- Remaining: Live Hub import/install and Selkies video/audio/input acceptance. No push, deployment or container control performed.
+- Next: Select target MOS host, import reviewed install/source bundles and verify the stream after user-controlled installation.
