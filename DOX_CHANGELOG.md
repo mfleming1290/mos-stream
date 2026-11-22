@@ -61,3 +61,22 @@
 - DOX: Root Project Catalog updated; page/scripts ownership routes added. Original repository ignore rules retained with additive plugin exclusions.
 - Remaining: Live Hub import/install and Selkies video/audio/input acceptance. No push, deployment or container control performed.
 - Next: Select target MOS host, import reviewed install/source bundles and verify the stream after user-controlled installation.
+
+## 2026-11-22T16:06:28Z — Public release and Hub catalogue
+
+- Request: Publish MOS Stream and add it to the normal Hub catalogue; user explicitly approved public repository visibility.
+- Result: completed distribution — public0.1.0 source/tag d97a6d3, clean main/tag CI success, anonymous release/hash/source checks pass; Hub commit30ce10f pushed only JSON/icon/manifest additions. No installation or live streaming acceptance claimed.
+- Files:
+  - Created: None in this repository.
+  - Modified:
+    - .github/workflows/build-plugin.yml
+    - README.md
+    - AGENTS.md
+    - docs/VALIDATION.md
+    - DOX_CHANGELOG.md
+  - Moved/Renamed: None.
+  - Deleted: None.
+- Validation: passed — main Actions45041779494, release Actions45041851266, public download/complete SHA256SUMS, matching source pairing/tag config/settings, exact published/local Debian equality and anonymous Hub catalogue/icon/manifest equality. Original Git credential helper returned403; per-command existing GitHub CLI credential helper succeeded without global credential changes.
+- DOX: publication state and next user acceptance recorded; release source remains immutable at0.1.0. Documentation reconciliation is a subsequent source-only commit.
+- Remaining: User-controlled catalogue refresh/install and real Selkies video/audio/input check.
+- Next: Install from catalogue; no automatic host changes.

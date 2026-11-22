@@ -10,3 +10,9 @@
 - No container lifecycle, privileged command, remote publication or installed app replacement occurred.
 
 Browser screenshots/logs live in ignored output/playwright and .playwright-cli; they are not included in source/install ZIPs. A local fixture is not evidence of a working live Selkies connection.
+
+## Public catalogue release
+
+2026-11-22: user authorized publication and explicitly approved changing mos-stream visibility to public. Source/tag d97a6d31bb84a8da6c4c6e3ebe7571bd509d58f5, numeric0.1.0. Clean main Actions45041779494 and tag/release Actions45041851266 passed. Anonymous release downloads and SHA256SUMS, pairing manifest, tagged config/settings and complete corresponding source verified. Published Debian SHA2568b65a335735032e7a184569ad1de6f98f0c6b19b2547645f2a74ed8175084471 exactly matches local package.
+
+Hub commit30ce10f adds only stream JSON, icon and manifest entries atop current remote main. Anonymous raw main downloads match. H: Git fetch could not write its remote ref, so publication used an isolated local clone and preserved unrelated dirty Hub guidance/history. Stream catalogue additions are mirrored into H: without replacing its unrelated files; its older branch is not claimed synchronized. No MOS cache refresh, import/install or settings mutation performed.

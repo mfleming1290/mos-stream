@@ -310,7 +310,8 @@ Use one repository-relative path per line when a category contains multiple path
 ### Current State
 
 - Current checkpoint: Source0.1.0 passes12 Node tests, federation build smoke and2 offline package tests. Browser fixture passes saved URL switch/reload, disconnect/reconnect, fullscreen and narrow settings. Live host remains unverified.
-- Next slice: Import reviewed local install/source artifacts into the selected MOS Hub and verify a real stream after installation.
+- Published: public numeric0.1.0 tag d97a6d31bb84a8da6c4c6e3ebe7571bd509d58f5; clean main/tag CI and anonymous release integrity checks pass. Hub catalogue commit30ce10f is pushed.
+- Next slice: User installs MOS Stream from the normal catalogue and verifies a real Selkies URL.
 - Gaps / blockers: No target MOS host/version or current Selkies endpoint was verified during local development.
 
 ### Global Contracts / Decisions
